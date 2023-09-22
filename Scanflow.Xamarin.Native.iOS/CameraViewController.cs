@@ -49,7 +49,7 @@ namespace Scanflow.Xamarin.Native.iOS
             captureBtn.Hidden = true;
             ObjCRuntime.Class.ThrowOnInitFailure = false;
             scanflowBarCodeManager = new ScanflowBarCodeManager(scanView, scannerMode, overlayViewApperance, false, UIColor.Red, UIColor.Yellow, UIColor.White, UIColor.Purple, false);
-            scanflowBarCodeManager.ValidateLicense("43a7841d3e4e4595b052f3bdc6e53ea6b125c292",CaptureType.BarcodeCapture);
+            scanflowBarCodeManager.ValidateLicense("Your License Key", CaptureType.BarcodeCapture);
             scanflowBarCodeManager.WeakDelegate = this;
             scanflowBarCodeManager.StartSession();
 

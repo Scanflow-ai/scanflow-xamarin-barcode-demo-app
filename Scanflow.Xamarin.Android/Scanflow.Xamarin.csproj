@@ -74,7 +74,6 @@
     <Compile Include="Model\Scanners.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
-    <Compile Include="Activities\TextScanActivity.cs" />
     <Compile Include="Activities\SettingsActivity.cs" />
   </ItemGroup>
   <ItemGroup>

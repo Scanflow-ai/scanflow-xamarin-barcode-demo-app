@@ -94,7 +94,7 @@ namespace Scanflow.Xamarin
                         title.Text = "Pivot View";
                     }
 
-                    mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "b0febcacca30d073e104af811f939b9608984b60", preview, decodeConfig, 0.4f);
+                    mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "Your License Key", preview, decodeConfig, 0.4f);
                     mBarcodeReader?.SetOnBarcodeScanResultCallback(this);
                     mBarcodeReader?.SetEnableLocationTracking(true);
                 }
