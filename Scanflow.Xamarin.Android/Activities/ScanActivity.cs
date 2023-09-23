@@ -73,31 +73,20 @@ namespace Scanflow.Xamarin
                         decodeConfig = DecodeConfig.Barcode;
                         title.Text = "Barcode";
                     }
-                    else if (ScanType == "Any")
+                    else
                     {
                         decodeConfig = DecodeConfig.Any;
                         title.Text = "Any";
                     }
-                    else if (ScanType == "Batch/Inventory")
-                    {
-                        decodeConfig = DecodeConfig.BatchInventory;
-                        title.Text = "Batch/Inventory";
-                    }
-                    else if (ScanType == "One of many codes")
-                    {
-                        decodeConfig = DecodeConfig.OneOfMany;
-                        title.Text = "One of many codes";
-                    }
-                    else
-                    {
-                        decodeConfig = DecodeConfig.PivotView;
-                        title.Text = "Pivot View";
-                    }
 
+                    //Note : Install the latest version of Xamarin.AndroidX.Camera.View NuGet Package to avoid GetInstance errors
+                    
                     mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "Your License Key", preview, decodeConfig, 0.4f);
-                    mBarcodeReader?.SetOnBarcodeScanResultCallback(this);
-                    mBarcodeReader?.SetEnableLocationTracking(true);
+                    mBarcodeReader?.SetOnBarcodeScanResultCallback(this); // Result Call Back
+                    mBarcodeReader?.SetEnableLocationTracking(false);
                 }
+
+               // Note:  Check Camera permission is allowed before starting a camera.
                 if (ActivityCompat.CheckSelfPermission(this, Manifest.Permission.Camera) == (int)Permission.Granted)
                 {
                     mBarcodeReader?.StartCamera();
@@ -159,59 +148,27 @@ namespace Scanflow.Xamarin
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
         {
             Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
-
-
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
 
 
-        public void OnBatchScanResultSuccess(IList<ScanResultSuccess> result)
-        {
-            foreach (var item in result)
-            {
-                ShowResultDataNew(item.Text);
-            }
-        }
+        #region [Scan Results]
 
+        public void OnBatchScanResultSuccess(IList<ScanResultSuccess> result) { }
+       
+        public void OnOneOfManyCodeResult(HashSet results) { }
+        
+        public void OnOneofManyCodeRemoved(OneOFManyCodesScanResults result) { }
+        
+        public void OnOneofManyCodeSelected(OneOFManyCodesScanResults result) { }
+       
+        public void OnScanBarcodeDetection(bool isDetected) { }
+      
+        public void OnScanResultFailure(string error) { }
+        
 
-
-        public void OnOneOfManyCodeResult(HashSet results)
-        {
-
-        }
-
-
-
-        public void OnOneofManyCodeRemoved(OneOFManyCodesScanResults result)
-        {
-            ShowResultDataNew(result.DecodedValue);
-        }
-
-
-
-        public void OnOneofManyCodeSelected(OneOFManyCodesScanResults result)
-        {
-            ShowResultDataNew(result.DecodedValue);
-        }
-
-
-
-        public void OnScanBarcodeDetection(bool isDetected)
-        {
-
-        }
-
-
-
-        public void OnScanResultFailure(string error)
-        {
-
-        }
-
-
-
+        // Barcode , QR , Any Results CallBack
         public void OnScanResultSuccess(ScanResultSuccess result)
         {
             ShowResultDataNew(result.Text);
@@ -236,7 +193,7 @@ namespace Scanflow.Xamarin
             });
         }
 
-       
+        #endregion
 
     }
 }
