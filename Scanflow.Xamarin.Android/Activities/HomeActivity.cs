@@ -66,7 +66,7 @@ namespace Scanflow.Xamarin
             list.Add(new Scanners() { imgid=Resource.Drawable.qr_code, description="QR CODE"});
             list.Add(new Scanners() { imgid = Resource.Drawable.barcode, description = "Barcode" });
             list.Add(new Scanners() { imgid = Resource.Drawable.any, description = "Any" });
-            list.Add(new Scanners() { imgid = Resource.Drawable.ic_pivot_view, description = "PivotView" });
+          //  list.Add(new Scanners() { imgid = Resource.Drawable.ic_pivot_view, description = "PivotView" });
             /*list.Add(new Scanners() { imgid = Resource.Drawable.batch, description = "Batch/Inventory" });
             list.Add(new Scanners() { imgid = Resource.Drawable.ic_one_of_many_codes, description = "One of many codes" });
             list.Add(new Scanners() { imgid = Resource.Drawable.ic_pivot_view, description = "Pivot View" });

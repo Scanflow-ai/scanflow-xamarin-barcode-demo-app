@@ -74,14 +74,7 @@ namespace Scanflow.Xamarin
                         decodeConfig = DecodeConfig.Barcode;
                         title.Text = "Barcode";
                     }
-                    else if(ScanType =="PivotView")
-                    {
-                        decodeConfig = DecodeConfig.PivotView;
-                        title.Text = "PivotView";
-
-                        //pivot_overlay.Visibility = ViewStates.Visible;
-
-                    }
+                  
                     else
                     {
                         decodeConfig = DecodeConfig.Any;
