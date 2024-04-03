@@ -24,6 +24,7 @@ using Xamarin.Essentials;
 using Context = Android.Content.Context;
 using Timer = System.Timers.Timer;
 using Android.Support.V4.App;
+using AndroidX.Camera.View;
 
 namespace Scanflow.Xamarin
 {
@@ -36,7 +37,7 @@ namespace Scanflow.Xamarin
         TextView tvResult;
         BottomSheetBehavior bottomSheetBehavior;
         View bottomSheet;
-        public ImageView flashBtn;
+        public ImageView flashBtn, pivot_overlay;
         public bool Isflash = false;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -73,6 +74,14 @@ namespace Scanflow.Xamarin
                         decodeConfig = DecodeConfig.Barcode;
                         title.Text = "Barcode";
                     }
+                    else if(ScanType =="PivotView")
+                    {
+                        decodeConfig = DecodeConfig.PivotView;
+                        title.Text = "PivotView";
+
+                        //pivot_overlay.Visibility = ViewStates.Visible;
+
+                    }
                     else
                     {
                         decodeConfig = DecodeConfig.Any;
@@ -81,7 +90,7 @@ namespace Scanflow.Xamarin
 
                     //Note : Install the latest version of Xamarin.AndroidX.Camera.View NuGet Package to avoid GetInstance errors
                     
-                    mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "Your License Key", preview, decodeConfig, 0.4f);
+                    mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "b0febcacca30d073e104af811f939b9608984b60", preview, decodeConfig, 0.4f);
                     mBarcodeReader?.SetOnBarcodeScanResultCallback(this); // Result Call Back
                     mBarcodeReader?.SetEnableLocationTracking(false);
                 }
