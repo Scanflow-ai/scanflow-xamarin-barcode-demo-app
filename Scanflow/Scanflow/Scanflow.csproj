@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <BuildWithMSBuildOnMono>true</BuildWithMSBuildOnMono>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -61,7 +62,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
     <PackageReference Include="Xamarin.Forms.InputKit" Version="4.1.6" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.759" />
-    <PackageReference Include="Scanflow.BarcodeCapture.Xamarin.Forms" Version="2.0.3" />
+    <PackageReference Include="Scanflow.BarcodeCapture.Xamarin.Forms" Version="2.0.4" />
   </ItemGroup>
 
   <ItemGroup>

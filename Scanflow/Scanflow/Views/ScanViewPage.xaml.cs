@@ -25,13 +25,13 @@ namespace Scanflow.Views
             switch (result.Name)
             {
                 case ConstantStrings.Barcode:
-                    barcodeCaptureScan.CreateScanSession("b0febcacca30d073e104af811f939b9608984b60", DecodeConfig.Barcode, 0.5f);
+                    barcodeCaptureScan.CreateScanSession("Your License Key", DecodeConfig.Barcode, 0.5f);
                     break;
                 case ConstantStrings.QR_Code:
-                    barcodeCaptureScan.CreateScanSession("b0febcacca30d073e104af811f939b9608984b60", DecodeConfig.QRCode, 0.5f);
+                    barcodeCaptureScan.CreateScanSession("Your License Key", DecodeConfig.QRCode, 0.5f);
                     break;
                 case ConstantStrings.Any:
-                    barcodeCaptureScan.CreateScanSession("b0febcacca30d073e104af811f939b9608984b60", DecodeConfig.Any, 0.5f);
+                    barcodeCaptureScan.CreateScanSession("Your License Key", DecodeConfig.Any, 0.5f);
                     break;
                 default:
                     break;
