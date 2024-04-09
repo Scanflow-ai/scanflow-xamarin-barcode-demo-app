@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.Android/Scanflow.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.Android/Scanflow.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.Android/Scanflow.Android.csproj",
+        "projectName": "Scanflow.Android",
+        "projectPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.Android/Scanflow.Android.csproj",
+        "packagesPath": "/Users/mac-obs-55/.nuget/packages/",
+        "outputPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/mac-obs-55/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "/Users/mac-obs-55/Desktop/Scanflow Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {
+              "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj": {
+                "projectPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Scanflow.BarcodeCapture.Xamarin.Forms": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.6.2.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2662, )"
+            },
+            "Xamarin.Forms.InputKit": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj",
+        "projectName": "Scanflow",
+        "projectPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj",
+        "packagesPath": "/Users/mac-obs-55/.nuget/packages/",
+        "outputPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mac-obs-55/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/mac-obs-55/Desktop/Scanflow Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Scanflow.BarcodeCapture.Xamarin.Forms": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2662, )"
+            },
+            "Xamarin.Forms.InputKit": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/mac-obs-55/Library/Caches/VisualStudio/17.0/MSBuild/25678_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
