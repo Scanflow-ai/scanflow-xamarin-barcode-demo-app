@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "AFXvmkqL/Cze2gOa6YTneR1ABNsoYqVUmcmFK8TKVKhO7Jvm+naDuIVoYgEaulqjeiz0JnCb+OazrhnGS9RG/A==",
+  "success": true,
+  "projectFilePath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Native.iOS/Scanflow.Xamarin.Native.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/racitsolutionspvtltd/.nuget/packages/scanflow.barcodecapture.xamarin.ios/2.0.2/scanflow.barcodecapture.xamarin.ios.2.0.2.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/toast.ios/1.2.0/toast.ios.1.2.0.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

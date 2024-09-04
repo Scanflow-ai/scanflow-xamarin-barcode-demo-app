@@ -40,6 +40,18 @@
           }
         }
       },
+      "Scanflow.BarcodeCapture.Xamarin.Forms/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        }
+      },
       "Scanflow.TextCapture.Xamarin.Forms/1.2.1": {
         "type": "package",
         "dependencies": {
@@ -468,6 +480,7 @@
         "dependencies": {
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.1.0",
+          "Scanflow.BarcodeCapture.Xamarin.Forms": "2.0.4",
           "SkiaSharp.Views.Forms": "2.88.3",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -522,6 +535,18 @@
           }
         }
       },
+      "Scanflow.BarcodeCapture.Xamarin.Forms/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        }
+      },
       "Scanflow.TextCapture.Xamarin.Forms/1.2.1": {
         "type": "package",
         "dependencies": {
@@ -932,6 +957,7 @@
         "dependencies": {
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.1.0",
+          "Scanflow.BarcodeCapture.Xamarin.Forms": "2.0.4",
           "SkiaSharp.Views.Forms": "2.88.3",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -986,6 +1012,18 @@
           }
         }
       },
+      "Scanflow.BarcodeCapture.Xamarin.Forms/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        }
+      },
       "Scanflow.TextCapture.Xamarin.Forms/1.2.1": {
         "type": "package",
         "dependencies": {
@@ -1396,6 +1434,7 @@
         "dependencies": {
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.1.0",
+          "Scanflow.BarcodeCapture.Xamarin.Forms": "2.0.4",
           "SkiaSharp.Views.Forms": "2.88.3",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -1450,6 +1489,18 @@
           }
         }
       },
+      "Scanflow.BarcodeCapture.Xamarin.Forms/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll": {}
+        }
+      },
       "Scanflow.TextCapture.Xamarin.Forms/1.2.1": {
         "type": "package",
         "dependencies": {
@@ -1860,6 +1911,7 @@
         "dependencies": {
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.1.0",
+          "Scanflow.BarcodeCapture.Xamarin.Forms": "2.0.4",
           "SkiaSharp.Views.Forms": "2.88.3",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -1951,6 +2003,22 @@
         "readme.txt",
         "rg.plugins.popup.2.1.0.nupkg.sha512",
         "rg.plugins.popup.nuspec"
+      ]
+    },
+    "Scanflow.BarcodeCapture.Xamarin.Forms/2.0.4": {
+      "sha512": "RQ2x+dq67TXBoSO6KT95j1EPPt6Mi0B+I2quNjsz9nfCfUz8eqpbvFhmwf9IlxeHgA1mkxJuurUDKAwd6f/hhQ==",
+      "type": "package",
+      "path": "scanflow.barcodecapture.xamarin.forms/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid13.0/Scanflow.BarcodeCapture.Xamarin.Forms.dll",
+        "lib/netstandard2.0/Scanflow.BarcodeCapture.Xamarin.Forms.dll",
+        "lib/netstandard2.1/Scanflow.BarcodeCapture.Xamarin.Forms.dll",
+        "lib/xamarinios10/Scanflow.BarcodeCapture.Xamarin.Forms.dll",
+        "packageicon.png",
+        "scanflow.barcodecapture.xamarin.forms.2.0.4.nupkg.sha512",
+        "scanflow.barcodecapture.xamarin.forms.nuspec"
       ]
     },
     "Scanflow.TextCapture.Xamarin.Forms/1.2.1": {
@@ -2844,33 +2912,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/mac-obs-55/.nuget/packages/": {}
+    "/Users/racitsolutionspvtltd/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.iOS/Scanflow.iOS.csproj",
+      "projectUniqueName": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow.iOS/Scanflow.iOS.csproj",
       "projectName": "Scanflow.iOS",
-      "projectPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.iOS/Scanflow.iOS.csproj",
-      "packagesPath": "/Users/mac-obs-55/.nuget/packages/",
-      "outputPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow.iOS/obj/",
+      "projectPath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow.iOS/Scanflow.iOS.csproj",
+      "packagesPath": "/Users/racitsolutionspvtltd/.nuget/packages/",
+      "outputPath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/mac-obs-55/.config/NuGet/NuGet.Config"
+        "/Users/racitsolutionspvtltd/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "/Users/mac-obs-55/Desktop/Scanflow Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj": {
-              "projectPath": "/Users/mac-obs-55/Documents/scanflow-xamarin-barcode-demo-app-2/Scanflow/Scanflow/Scanflow.csproj"
+            "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj": {
+              "projectPath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj"
             }
           }
         }

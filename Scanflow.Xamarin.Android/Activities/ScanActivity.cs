@@ -4,7 +4,6 @@ using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
-using AndroidX.Fragment.App;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
@@ -16,20 +15,17 @@ using Com.Scanflow.Datacapture.Sfbarcode;
 using Google.Android.Material.BottomSheet;
 using Java.Util;
 using Scanflow.Xamarin.Activities;
-using Scanflow.Xamarin.Android;
 using System;
 using System.Collections.Generic;
-using System.Runtime.Remoting.Contexts;
 using Xamarin.Essentials;
 using Context = Android.Content.Context;
 using Timer = System.Timers.Timer;
 using Android.Support.V4.App;
-using AndroidX.Camera.View;
 
 namespace Scanflow.Xamarin
 {
     [Activity(Label = "ScanActivity")]
-    public class ScanActivity : AppCompatActivity, ScanflowReader.IOnBarcodeScanResultCallback
+    public class ScanActivity : AppCompatActivity, ScanflowReader.IOnBarcodeScanResultCallback, ScanflowReader.IOnLicenseValidationCallback
     {
         public ScanflowReader mBarcodeReader;
         public DecodeConfig decodeConfig;
@@ -38,7 +34,9 @@ namespace Scanflow.Xamarin
         BottomSheetBehavior bottomSheetBehavior;
         View bottomSheet;
         public ImageView flashBtn, pivot_overlay;
+        public Button retryValidate;
         public bool Isflash = false;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             try
@@ -59,6 +57,10 @@ namespace Scanflow.Xamarin
                 flashBtn.Click += FlashBtn_Click;
                 copyBtn.Click += CopyBtn_Click;
                 backBtn.Click += BackBtn_Click;
+
+                retryValidate = this.FindViewById<Button>(Resource.Id.btn_retry_license);
+                retryValidate.Click += RetryValidate_Click;
+
                 //settingsBtn.Click += SettingsBtn_Click;
                 flashBtn.SetImageResource(Resource.Drawable.ic_flash_disable);
                 if (Intent.HasExtra("ScanType"))
@@ -74,7 +76,6 @@ namespace Scanflow.Xamarin
                         decodeConfig = DecodeConfig.Barcode;
                         title.Text = "Barcode";
                     }
-                  
                     else
                     {
                         decodeConfig = DecodeConfig.Any;
@@ -83,12 +84,15 @@ namespace Scanflow.Xamarin
 
                     //Note : Install the latest version of Xamarin.AndroidX.Camera.View NuGet Package to avoid GetInstance errors
                     
-                    mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "[[Paste your licence key]]", preview, decodeConfig, 0.4f);
+                    mBarcodeReader = SFBarcodeCaptureSession.Instance.CreateScanSession(this, "1e97efbd3817dbd366d829399dc525e4f3e5e958", preview, decodeConfig, 0.4f);
                     mBarcodeReader?.SetOnBarcodeScanResultCallback(this); // Result Call Back
                     mBarcodeReader?.SetEnableLocationTracking(false);
+                    mBarcodeReader.SetOnLicenseValidationCallback(this);
+
                 }
 
                // Note:  Check Camera permission is allowed before starting a camera.
+
                 if (ActivityCompat.CheckSelfPermission(this, Manifest.Permission.Camera) == (int)Permission.Granted)
                 {
                     mBarcodeReader?.StartCamera();
@@ -98,6 +102,11 @@ namespace Scanflow.Xamarin
             {
                 Toast.MakeText(this, Ex.ToString(), ToastLength.Short).Show();
             }
+        }
+
+        private void RetryValidate_Click(object sender, EventArgs e)
+        {
+            mBarcodeReader.DoLicenseValidation();
         }
 
         private void SettingsBtn_Click(object sender, EventArgs e)
@@ -126,6 +135,7 @@ namespace Scanflow.Xamarin
                 flashBtn.SetImageResource(Resource.Drawable.ic_flash_enable);
                 mBarcodeReader.EnableTorch(true);
             }
+
         }
 
         private void BottomSheet_Click(object sender, System.EventArgs e)
@@ -136,7 +146,6 @@ namespace Scanflow.Xamarin
                 bottomSheet.Visibility = ViewStates.Gone;
             });
         }
-
 
         private void CopyBtn_Click(object sender, EventArgs e)
         {
@@ -152,8 +161,6 @@ namespace Scanflow.Xamarin
             Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-
-
 
         #region [Scan Results]
 
@@ -195,7 +202,22 @@ namespace Scanflow.Xamarin
             });
         }
 
-        #endregion
+        public async void OnLicenseFailure(string error)
+        {
+            await MainThread.InvokeOnMainThreadAsync(() =>
+            {
+                Toast.MakeText(this, error, ToastLength.Short).Show();
+            });
+        }
 
+        public async void OnLicenseSuccess(string result)
+        {
+            await MainThread.InvokeOnMainThreadAsync(() =>
+            {
+                Toast.MakeText(this, result, ToastLength.Short).Show();
+            });
+        }
+
+        #endregion
     }
 }

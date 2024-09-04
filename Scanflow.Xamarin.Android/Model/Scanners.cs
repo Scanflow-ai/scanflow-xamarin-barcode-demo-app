@@ -17,6 +17,4 @@ namespace Scanflow.Xamarin.Android.Model
         public string description { get; set; }
         public int imgid { get; set; }
     }
-
-    
 }

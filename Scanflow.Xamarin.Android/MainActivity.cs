@@ -19,10 +19,11 @@ namespace Scanflow.Xamarin
         //public static int[] SampleImages = { Resource.Drawable.onboardImage1a, Resource.Drawable.onboardimage_b, Resource.Drawable.onboardimage_c, Resource.Drawable.onboardimage_d };
 
         ViewPager viewPager;
-    
+
         ImageAdapter imageAdapter;
 
-         ImageView imageView;
+        ImageView imageView;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -75,7 +76,7 @@ namespace Scanflow.Xamarin
             }
             public override void OnPageSelected(int position)
             {
-               
+
                 switch (position)
                 {
                     case 0:
@@ -90,12 +91,11 @@ namespace Scanflow.Xamarin
                     case 3:
                         imageView.SetImageResource(Resource.Drawable.skip4);
                         break;
-                       
+
                 }
             }
         }
 
 
     }
-   
 }

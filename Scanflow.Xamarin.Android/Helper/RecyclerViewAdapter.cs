@@ -65,7 +65,8 @@ namespace Scanflow.Xamarin.Android.Helper
 
         }
     }
-        public class RecyclerViewAdapter : RecyclerView.Adapter
+
+    public class RecyclerViewAdapter : RecyclerView.Adapter
     {
         public List<Scanners>list = new List<Scanners>();
         public Activity context; View itemView;
@@ -98,6 +99,4 @@ namespace Scanflow.Xamarin.Android.Helper
             return new RecyclerViewHolder(itemView, context, list);    
         }
     }
-
-
 }
