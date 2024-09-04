@@ -1,27 +1,21 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{06300469-9354-4E6F-B054-AFF64C245258}|Default">
-  <MonoDevelop.Ide.ItemProperties.Scanflow.Xamarin.Forms.Scanflow.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA4E8859-A331-4374-9C54-01FB6068340C" />
+﻿<Properties StartupConfiguration="{06300469-9354-4E6F-B054-AFF64C245258}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.Scanflow.Xamarin.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA4E8859-A331-4374-9C54-01FB6068340C" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Scanflow.Xamarin.Android/Activities/ScanActivity.cs">
-    <Files>
-      <File FileName="Scanflow.Xamarin.Android/Activities/ScanActivity.cs" Line="28" Column="51" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Scanflow.Xamarin.Forms.Scanflow.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA4E8859-A331-4374-9C54-01FB6068340C" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ScanflowDemo">
-            <Node name="Scanflow.Xamarin.Native">
-              <Node name="Scanflow.Xamarin" expanded="True">
-                <Node name="Activities" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="ScanflowDemo" expanded="True">
+            <Node name="Scanflow.Xamarin.Native.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

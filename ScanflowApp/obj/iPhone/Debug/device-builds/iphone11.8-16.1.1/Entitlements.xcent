@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>423UNFB7Q9.com.scanflow.mauidemo</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>com.apple.developer.team-identifier</key>
+	<string>423UNFB7Q9</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>423UNFB7Q9.com.scanflow.mauidemo</string>
+	</array>
+</dict>
+</plist>

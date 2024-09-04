@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eThvqD1POGTJ8T/gWhoxHXZdVn0Jg/2uMavMNw40HWtO2oYZpplbJgZaUZue0ShJ7XX/Cm+mUGtmFLSgqx3alw==",
+  "success": true,
+  "projectFilePath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-core-xamarin-ios-sdk/ScanflowApp/ScanflowApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/racitsolutionspvtltd/.nuget/packages/plugin.permissions/6.0.1/plugin.permissions.6.0.1.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

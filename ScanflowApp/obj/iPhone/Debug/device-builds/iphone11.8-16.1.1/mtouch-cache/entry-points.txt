@@ -1,0 +1,26 @@
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/mscorlib.dll
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_UIApplicationMain
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_OveylayViewApperance
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Scanflow.BarcodeCapture.Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_ScannerType
+	/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache/1-Link/Scanflow.BarcodeCapture.Xamarin.iOS.dll
+Function=mono_pmip
