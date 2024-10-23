@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQXwbQIxwNx3C+JJDBNOAvR3s5oD9IzSh+fUKtoo5Q2cwYlQ1HFL56EDfTyblhMQW0mjDj5JGK9mPGPz64sKwA==",
+  "success": true,
+  "projectFilePath": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Native/ScanflowApp/ScanflowApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/racitsolutionspvtltd/.nuget/packages/plugin.permissions/6.0.1/plugin.permissions.6.0.1.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,21 +1,27 @@
-﻿<Properties StartupConfiguration="{06300469-9354-4E6F-B054-AFF64C245258}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.Scanflow.Xamarin.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA4E8859-A331-4374-9C54-01FB6068340C" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties>
+  <DisabledProjects>
+    <String>ScanflowApp/ScanflowApp.csproj</String>
+    <String>Scanflow.Xamarin.Android/Scanflow.Xamarin.csproj</String>
+    <String>Scanflow.BarcodeCapture.Xamarin.iOS/Scanflow.BarcodeCapture.Xamarin.iOS.csproj</String>
+    <String>Scanflow/Scanflow/Scanflow.csproj</String>
+    <String>Scanflow/Scanflow.Android/Scanflow.Android.csproj</String>
+    <String>Scanflow/Scanflow.iOS/Scanflow.iOS.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.Scanflow.Xamarin.Forms.Scanflow.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA4E8859-A331-4374-9C54-01FB6068340C" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ScanflowDemo" expanded="True">
-            <Node name="Scanflow.Xamarin.Native.iOS" expanded="True" />
-          </Node>
+          <Node name="ScanflowDemo" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Scanflow.Xamarin.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA4E8859-A331-4374-9C54-01FB6068340C" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

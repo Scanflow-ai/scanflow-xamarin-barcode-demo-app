@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Scanflow.BarcodeCapture.Xamarin.iOS</id>
+    <version>444.0.1</version>
+    <title>ScanflowBarcodeCapture</title>
+    <authors>Scanflow</authors>
+    <icon>Resources\packageicon.png</icon>
+    <projectUrl>https://www.scanflow.ai/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Scanflow is an AI scanner on smart devices for data capture and workflow automation.</description>
+    <releaseNotes>Barcode QRCode Scanning performance and accuracy improved, Minor Bug Fixes</releaseNotes>
+    <copyright>Copyright - 2024 Scanflow Pte Ltd.</copyright>
+    <tags>Barcode, iOS, Xamarin, Scanflow</tags>
+
+<dependencies>
+
+</dependencies>
+
+</metadata>
+
+ <files>
+<file src="/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.dll" target="lib/Scanflow.BarcodeCapture.Xamarin.iOS.dll" />
+<file src="/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.pdb" target="lib/Scanflow.BarcodeCapture.Xamarin.iOS.pdb" />
+
+ <file src="/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/Scanflow.BarcodeCapture.Xamarin.iOS/Resources/packageicon.png" target="Resources\" />
+
+
+</files>
+</package>
+

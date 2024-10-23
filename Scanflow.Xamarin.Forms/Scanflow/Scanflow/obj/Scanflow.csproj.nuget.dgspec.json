@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Forms/Scanflow/Scanflow/Scanflow.csproj": {}
+  },
+  "projects": {
+    "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Forms/Scanflow/Scanflow/Scanflow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Forms/Scanflow/Scanflow/Scanflow.csproj",
+        "projectName": "Scanflow",
+        "projectPath": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Forms/Scanflow/Scanflow/Scanflow.csproj",
+        "packagesPath": "/Users/racitsolutionspvtltd/.nuget/packages/",
+        "outputPath": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow.Xamarin.Forms/Scanflow/Scanflow/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/racitsolutionspvtltd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/LocalNuget": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Scanflow.BarcodeCapture.Xamarin.Forms": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2662, )"
+            },
+            "Xamarin.Forms.InputKit": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

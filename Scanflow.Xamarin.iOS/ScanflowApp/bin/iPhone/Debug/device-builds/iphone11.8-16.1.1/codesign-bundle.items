@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_CodesignBundle Include="ScanflowApp.app">
+      <CodesignSigningKey>318CBE03130B021C68111CFC98AE99DF737D7A2E</CodesignSigningKey>
+      <CodesignEntitlements>/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/Entitlements.xcent</CodesignEntitlements>
+      <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
+      <CodesignAllocate>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
+      <RequireCodeSigning>true</RequireCodeSigning>
+      <CodesignExtraArgs></CodesignExtraArgs>
+      <CodesignResourceRules></CodesignResourceRules>
+      <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
+      <CodesignKeychain></CodesignKeychain>
+      <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
+      <SourceProjectPath>/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp</SourceProjectPath>
+    </_CodesignBundle>
+  </ItemGroup>
+</Project>

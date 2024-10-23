@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj": {}
+    "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj": {}
   },
   "projects": {
-    "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj": {
+    "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj",
+        "projectUniqueName": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj",
         "projectName": "Scanflow",
-        "projectPath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj",
+        "projectPath": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj",
         "packagesPath": "/Users/racitsolutionspvtltd/.nuget/packages/",
-        "outputPath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/obj/",
+        "outputPath": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/racitsolutionspvtltd/.config/NuGet/NuGet.Config"
+          "/Users/racitsolutionspvtltd/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/LocalNuget": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,22 +88,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "NETStandard.Library.Ref",
-              "version": "[2.1.0, 2.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/racitsolutionspvtltd/Library/Caches/VisualStudio/17.0/MSBuild/68098_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
         }
       }
     }

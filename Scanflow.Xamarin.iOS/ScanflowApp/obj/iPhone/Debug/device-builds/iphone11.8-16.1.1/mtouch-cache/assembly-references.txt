@@ -1,0 +1,13 @@
+/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/bin/iPhone/Debug/ScanflowApp.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/repl/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/../../64bits/iOS/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/repl/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/repl/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/System.Numerics.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/repl/System.Core.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/System.Net.Http.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
+/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.dll
+/Users/racitsolutionspvtltd/.nuget/packages/xamarin.essentials/1.8.1/lib/xamarinios10/Xamarin.Essentials.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mono/Xamarin.iOS/OpenTK-1.0.dll

@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow.Android\\Scanflow.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow.Android\\Scanflow.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow.Android\\Scanflow.Android.csproj",
+        "projectName": "Scanflow.Android",
+        "projectPath": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow.Android\\Scanflow.Android.csproj",
+        "packagesPath": "C:\\Users\\karthik.r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karthik.r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 8\\LocalNuget1": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 9\\LocalNugetWithMonoAndrd": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 9\\LocalNugetWithoutMonoAndrd": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 9\\SamsonNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {
+              "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow\\Scanflow.csproj": {
+                "projectPath": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow\\Scanflow.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Scanflow.BarcodeCapture.Xamarin.Forms": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.6.2.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2662, )"
+            },
+            "Xamarin.Forms.InputKit": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow\\Scanflow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow\\Scanflow.csproj",
+        "projectName": "Scanflow",
+        "projectPath": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow\\Scanflow.csproj",
+        "packagesPath": "C:\\Users\\karthik.r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karthik.r\\Desktop\\Projects 9\\scanflow-xamarin-barcode-demo-app\\Scanflow\\Scanflow\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karthik.r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 8\\LocalNuget1": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 9\\LocalNugetWithMonoAndrd": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 9\\LocalNugetWithoutMonoAndrd": {},
+          "C:\\Users\\karthik.r\\Desktop\\Projects 9\\SamsonNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Scanflow.BarcodeCapture.Xamarin.Forms": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2662, )"
+            },
+            "Xamarin.Forms.InputKit": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

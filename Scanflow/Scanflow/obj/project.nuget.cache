@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i3YOc3NmBaEktDg8W0wt+RhgZuLIlNdVUTcxq/6QQdrQjSA4Fs3nNz+ocJZIOjbY8Qa6HyegrPTyVkkahhW6ag==",
+  "dgSpecHash": "zWJl/plZKvo=",
   "success": true,
-  "projectFilePath": "/Users/racitsolutionspvtltd/Desktop/Sep4 Git/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj",
+  "projectFilePath": "/Users/racitsolutionspvtltd/Desktop/GitToPush/scanflow-xamarin-barcode-demo-app/Scanflow/Scanflow/Scanflow.csproj",
   "expectedPackageFiles": [
     "/Users/racitsolutionspvtltd/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/racitsolutionspvtltd/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -23,8 +23,7 @@
     "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.ffimageloading.svg.forms/2.4.11.982/xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
     "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.forms/5.0.0.2662/xamarin.forms.5.0.0.2662.nupkg.sha512",
     "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.forms.inputkit/4.1.6/xamarin.forms.inputkit.4.1.6.nupkg.sha512",
-    "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.forms.pancakeview/2.3.0.759/xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
-    "/Users/racitsolutionspvtltd/.nuget/packages/netstandard.library.ref/2.1.0/netstandard.library.ref.2.1.0.nupkg.sha512"
+    "/Users/racitsolutionspvtltd/.nuget/packages/xamarin.forms.pancakeview/2.3.0.759/xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
   "logs": []
 }

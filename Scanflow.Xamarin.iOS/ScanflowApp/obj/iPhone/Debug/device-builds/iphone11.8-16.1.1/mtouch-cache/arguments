@@ -1,0 +1,34 @@
+# Version: 16.4.0.23 (xcode14.3: 9defd91b3)
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.23/lib/mtouch/mtouch.exe \
+	--debug \
+	--sgen-conc \
+	'/target-framework:Xamarin.iOS,Version=v1.0' \
+	--http-message-handler=NSUrlSessionHandler \
+	--cache=/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-cache \
+	--root-assembly=/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/bin/iPhone/Debug/ScanflowApp.exe \
+	--sdkroot=/Applications/Xcode.app/Contents/Developer \
+	--targetver=15 \
+	--dev=/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/bin/iPhone/Debug/device-builds/iphone11.8-16.1.1/ScanflowApp.app \
+	--executable=ScanflowApp \
+	--interpreter=-all \
+	--linksdkonly \
+	--sdk=17.5 \
+	--aot-options=-O=-float32 \
+	--abi=arm64 \
+	--symbollist=/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/mtouch-symbols.list \
+	--dsym=no \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
+	--reference=/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--reference=/Users/racitsolutionspvtltd/.nuget/packages/plugin.permissions/6.0.1/lib/xamarinios10/Plugin.Permissions.dll \
+	--reference=/Users/racitsolutionspvtltd/.nuget/packages/xamarin.essentials/1.8.1/lib/xamarinios10/Xamarin.Essentials.dll \
+	--reference=/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.dll \
+	@/Users/racitsolutionspvtltd/Desktop/Scanflow_Oct9/Projects/scanflow-core-xamarin-ios-sdk/ScanflowApp/obj/iPhone/Debug/device-builds/iphone11.8-16.1.1/response-file.rsp \
+	--optimize=-remove-dynamic-registrar \

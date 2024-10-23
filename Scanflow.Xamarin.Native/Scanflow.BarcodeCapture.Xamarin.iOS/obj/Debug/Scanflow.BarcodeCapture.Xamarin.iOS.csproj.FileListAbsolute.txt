@@ -1,0 +1,7 @@
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.dll
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/bin/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.pdb
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/obj/Debug/_ProcessedBundleResourcesPath.items
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/obj/Debug/_ProcessedContentPath.items
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/obj/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.csproj.CoreCompileInputs.cache
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/obj/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.dll
+/Users/racitsolutionspvtltd/Desktop/WorkingAug12/scanflow-core-xamarin-ios-sdk WorkingAug10/Scanflow.BarcodeCapture.Xamarin.iOS/obj/Debug/Scanflow.BarcodeCapture.Xamarin.iOS.pdb
